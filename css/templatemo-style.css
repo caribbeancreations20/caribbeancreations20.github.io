@@ -424,7 +424,7 @@ p, address {
   margin: 7px;
 }
 
-.tm-paging-link {
+.tm-paging-link, .tm-paging-link1 {
   padding: 10px 30px;
   display: flex;
   align-items: center;
@@ -434,8 +434,8 @@ p, address {
   background-color: transparent;
 }
 
-.tm-paging-link.active,
-.tm-paging-link:hover {
+.tm-paging-link.active, .tm-paging-link1.active,
+.tm-paging-link:hover, .tm-paging-link1:hover {
   background-color: #2F956D;
   color: white;
 }
